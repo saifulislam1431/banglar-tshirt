@@ -10,6 +10,7 @@ import Home from './component/Home/Home';
 import Product from './component/Product/Product';
 import Shop from './component/Shop/Shop';
 import App from './App';
+import OrderReview from './component/OrderReview/OrderReview';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         path: 'shop',
         element: <Shop></Shop>,
         loader: ()=> fetch('data.json')
+      },
+      {
+        path:'/review',
+        element:<OrderReview></OrderReview>
       }
     ]
   },
