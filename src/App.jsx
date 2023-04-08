@@ -2,6 +2,9 @@ import { Outlet, useLocation } from 'react-router-dom'
 import './App.css'
 import Header from './component/Header/Header'
 import { useEffect } from 'react'
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   const loc = useLocation()
@@ -18,6 +21,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <Outlet></Outlet>
+      <ToastContainer />
+
     </div>
   )
 }
