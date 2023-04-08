@@ -13,3 +13,6 @@
 .default{
     @apply text-purple-400;
 }
+.btn-shop{
+    @apply px-4 py-2 bg-purple-400 mt-4 text-lg font-medium text-yellow-50 rounded-lg hover:bg-purple-700
+}
