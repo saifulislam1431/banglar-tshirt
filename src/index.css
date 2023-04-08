@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .my-container{
-    @apply px-10 lg:px-20 py-5 lg:py-5 
+    @apply px-10 lg:px-14 py-5 lg:py-5 
 }
 
 .active{
@@ -15,4 +15,7 @@
 }
 .btn-shop{
     @apply px-4 py-2 bg-purple-400 mt-4 text-lg font-medium text-yellow-50 rounded-lg hover:bg-purple-700
+}
+.card{
+    @apply w-72
 }
